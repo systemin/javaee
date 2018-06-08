@@ -1,6 +1,7 @@
 package com.hello;
 
 public class Hello {
+  //中文分词
     public static void main(String[] args) {
       String input = "太好了，今天是星期六啊";
       new Split(input).start();
