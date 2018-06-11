@@ -10,6 +10,7 @@ public class HashMapTest {
   }
   public static void testmp(){
     Map<Integer, String> map=new HashMap<Integer, String>();
+
     int i=0;
     map.put(1,"序号"+201);
     while (i<50){
