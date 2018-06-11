@@ -11,5 +11,9 @@ public class FactoryPatternDemo {
 
     FactoryPattern factoryPattern2 = shapeFactory.getFactoryPattern("FactoryPatternImpl2");
     factoryPattern2.draw();
+
+    //静态工厂
+    FactoryPattern factoryPattern3 = shapeFactory.Patterns(shapeFactory.FP_IMPL);
+    factoryPattern3.draw();
   }
 }
