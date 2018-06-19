@@ -14,9 +14,9 @@ public class BuilderPattern {
     director.Construc(builder);
 
     //装完后，组装人员搬来组装好的电脑
-    Computer computer=builder.getComputer();
+    Computer computer = builder.getComputer();
 
-    //组装人员展示电脑给小成看
+    //组装人员展示电脑
     computer.show();
   }
 }

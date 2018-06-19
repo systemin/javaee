@@ -2,6 +2,7 @@ package com.hello.builder;
 
 public class BuiderPatternDemo {
   public static void main(String[] args) {
+
     MealBuilder mealBuilder = new MealBuilder();
 
     Meal meal = mealBuilder.prepareVegMeal();
@@ -14,5 +15,6 @@ public class BuiderPatternDemo {
     System.out.println("\n\nMeal");
     nonVegMeal.showItems();
     System.out.println("Total Cost:1 " +nonVegMeal.getCost());
+
   }
 }
